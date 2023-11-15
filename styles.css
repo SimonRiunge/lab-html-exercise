@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+*{
+  font-family: "Poppins";
+}
+
+body {  
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header{
+padding: 0 25px;
+}
+
+/* Styling the top section of the header */
+#top-header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+#black-heart{
+  display: flex;
+  align-items: center;
+}
+
+#black-heart img{
+  width: 3em;
+  height: 2em;
+}
+
+nav{
+  width: 40%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+list-style: none;
+}
+
+nav ul li a{
+  color: black;
+  text-decoration: none;
+}
+
+/* Styling the bottom section of the header */
+
+#bottom-header-section{
+display: flex;
+justify-content:flex-start;
+align-items: center;
+height: 50px;
+}
+
+
+#npm-logo{
+  display: flex;
+  align-items: center;
+  margin-right: 1.5em;
+  height: 80%;
+}
+
+#npm-logo img{
+  width: 3em;
+  height: 1em;
+  margin-left: 1em;
+}
+
+#magnifying-glass{
+  width: 1.5em;
+  height: 1.5em;
+}
+
+#bottom-header-section form{
+  width: 80%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  margin-top: 0.3em;
+  margin-right: 60px;
+}
+
+#bottom-header-section form input{
+  width: 90%;
+  height: 100%;
+  font-size: 1em;
+  padding-left: 1.5em;
+  border: none;
+  background-color: #E8E9EB;
+  position: relative;
+  color: rgba(0,0,0,.05);
+  
+}
+
+#bottom-header-section form img{
+  position: absolute; top: 2px; right: 5px;
+}
+
+#bottom-header-section form button{
+  background-color: #fb3e44;
+  height: 100%;
+  border-style: none;
+  width: 10%;
+  color: white;
+}
+
+#nav-links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80%;
+}
+
+#nav-links a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.773);
+}
+
+#nav-links #join-link{
+border: 1px black solid;
+padding: 0 10px;
+margin-right: 40px;
+}
+
+/* Styling the amazing-things-section */
+
+#amazing-things-section{
+  height: 600px;
+  background-color: rgba(232,217,217,.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#amazing-things-section h1{
+font-size: 4.5em;
+}
+
+#amazing-things-section article{
+  width: 26vw;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#section-links{
+  width: 26vw;
+  display: flex;
+  justify-content:flex-start;
+}
+
+#amazing-things-section a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+#amazing-things-section #plans{
+  background-color: #FB3B49;
+  color: azure;
+  padding: 10px 30px;
+  margin-right: 9vw;
+  box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+  font-weight: normal;
+}
+
