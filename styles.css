@@ -1,17 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 
-*{
+* {
   font-family: "Poppins";
 }
 
-body {  
+body {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
-header{
-padding: 0 25px;
+header {
+  padding: 0 25px;
 }
 
 /* Styling the top section of the header */
@@ -22,63 +22,62 @@ padding: 0 25px;
   border-bottom: 1px solid lightgray;
 }
 
-#black-heart{
+#black-heart {
   display: flex;
   align-items: center;
 }
 
-#black-heart img{
+#black-heart img {
   width: 3em;
   height: 2em;
 }
 
-nav{
+nav {
   width: 40%;
 }
 
 nav ul {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-nav ul li{
-list-style: none;
+nav ul li {
+  list-style: none;
 }
 
-nav ul li a{
+nav ul li a {
   color: black;
   text-decoration: none;
 }
 
 /* Styling the bottom section of the header */
 
-#bottom-header-section{
-display: flex;
-justify-content:flex-start;
-align-items: center;
-height: 50px;
+#bottom-header-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50px;
 }
 
-
-#npm-logo{
+#npm-logo {
   display: flex;
   align-items: center;
   margin-right: 1.5em;
   height: 80%;
 }
 
-#npm-logo img{
+#npm-logo img {
   width: 3em;
   height: 1em;
   margin-left: 1em;
 }
 
-#magnifying-glass{
+#magnifying-glass {
   width: 1.5em;
   height: 1.5em;
 }
 
-#bottom-header-section form{
+#bottom-header-section form {
   width: 80%;
   height: 80%;
   display: flex;
@@ -87,23 +86,24 @@ height: 50px;
   margin-right: 60px;
 }
 
-#bottom-header-section form input{
+#bottom-header-section form input {
   width: 90%;
   height: 100%;
   font-size: 1em;
   padding-left: 1.5em;
   border: none;
-  background-color: #E8E9EB;
+  background-color: #e8e9eb;
   position: relative;
-  color: rgba(0,0,0,.05);
-  
+  color: rgba(0, 0, 0, 0.05);
 }
 
-#bottom-header-section form img{
-  position: absolute; top: 2px; right: 5px;
+#bottom-header-section form img {
+  position: absolute;
+  top: 2px;
+  right: 5px;
 }
 
-#bottom-header-section form button{
+#bottom-header-section form button {
   background-color: #fb3e44;
   height: 100%;
   border-style: none;
@@ -111,63 +111,125 @@ height: 50px;
   color: white;
 }
 
-#nav-links{
+#nav-links {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 80%;
 }
 
-#nav-links a{
+#nav-links a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.773);
 }
 
-#nav-links #join-link{
-border: 1px black solid;
-padding: 0 10px;
-margin-right: 40px;
+#nav-links #join-link {
+  border: 1px black solid;
+  padding: 0 10px;
+  margin-right: 40px;
 }
 
 /* Styling the amazing-things-section */
-
-#amazing-things-section{
+section {
   height: 600px;
-  background-color: rgba(232,217,217,.3);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-#amazing-things-section h1{
-font-size: 4.5em;
+#amazing-things-section {
+  background-color: rgba(232, 217, 217, 0.3);
 }
 
-#amazing-things-section article{
+#amazing-things-section h1 {
+  font-size: 4.5em;
+}
+
+#amazing-things-section article {
   width: 26vw;
   text-align: center;
   margin-bottom: 50px;
 }
 
-#section-links{
+#section-links {
   width: 26vw;
   display: flex;
-  justify-content:flex-start;
+  justify-content: flex-start;
 }
 
-#amazing-things-section a{
+#amazing-things-section a {
   text-decoration: none;
   color: black;
   font-weight: bold;
 }
 
-#amazing-things-section #plans{
-  background-color: #FB3B49;
+#amazing-things-section #plans {
+  background-color: #fb3b49;
   color: azure;
   padding: 10px 30px;
   margin-right: 9vw;
-  box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+  box-shadow: 8px 8px 0 rgba(251, 59, 73, 0.2);
   font-weight: normal;
 }
 
+#section2 img {
+  height: 200px;
+  width: 300px;
+}
+
+#section2 #heading {
+  background-color: rgba(255, 204, 53, 0.4);
+  transform: skew(9deg, 0deg);
+  font-style: italic;
+  width: 50vw;
+  margin: 40px 0;
+}
+#section2 #heading h1 {
+  font-size: 1.9em;
+  margin: 0 20px;
+}
+
+#section2 article {
+  font-size: 0.9em;
+  width: 48vw;
+  text-align: center;
+}
+
+#section3 {
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#cards-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 80px;
+}
+
+#section3 #card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 16vw;
+  margin: 5px 30px;
+}
+
+#section3 #card img {
+  height: 30px;
+}
+
+#section3 #card h3 {
+  color: #ed1c24;
+}
+
+#section3 button {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  font-weight: bolder;
+  padding: 10px 50px;
+}
